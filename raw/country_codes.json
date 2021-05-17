@@ -386,13 +386,13 @@
   {
     "country_code": "DM",
     "name": "Dominica",
-    "calling_code": "+1767",
+    "calling_code": "+1",
     "flag": "flags/dma.png"
   },
   {
     "country_code": "DO",
     "name": "Dominican Republic",
-    "calling_code": "+1809",
+    "calling_code": "+1",
     "flag": "flags/dom.png"
   },
   {

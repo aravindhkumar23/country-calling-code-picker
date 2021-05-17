@@ -111,9 +111,9 @@ class _CountryPickerWidgetState extends State<CountryPickerWidget> {
           (element) => element.countryCode == code,
           orElse: () => null);
       if (_currentCountry != null) {
-        _list.removeWhere(
-            (element) => element.callingCode == _currentCountry.callingCode);
-        _list.insert(0, _currentCountry);
+        // _list.removeWhere(
+        //     (element) => element.callingCode == _currentCountry.callingCode);
+        // _list.insert(0, _currentCountry);
       }
     } catch (e) {} finally {
       setState(() {
